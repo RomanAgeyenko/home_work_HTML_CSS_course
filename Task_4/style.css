@@ -1,0 +1,26 @@
+.frame {
+    width: 50%;
+    height: auto;
+    
+    position: relative;
+    background-image: url(./images/frameAngle_TopLeft.png),
+                      url(./images/frameAngle_TopRight.png),
+                      url(./images/frameAngle_BottomRight.png),
+                      url(./images/frameAngle_BottomLeft.png),
+                      url(./images/borderFrame_TopBottom.png),
+                      url(./images/borderFrame_TopBottom.png),
+                      url(./images/borderFrame_RightLeft.png),
+                      url(./images/borderFrame_RightLeft.png);
+    
+    background-position: top left, top right, bottom right, bottom left, 
+                         top, bottom, right, left;
+    
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, 
+                       repeat-x, repeat-x, repeat-y, repeat-y;                            
+}
+                    
+.text { 
+    font-size: 16px;
+    padding: 45px;
+    text-align: justify;    
+}
