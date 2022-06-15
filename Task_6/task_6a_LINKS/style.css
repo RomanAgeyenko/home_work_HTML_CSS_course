@@ -1,0 +1,32 @@
+/* Табличным способом */
+.byTableMethod table {
+    width: 100%;   
+    margin: 0 auto;           
+}
+
+.byTableMethod td {
+    border-right: 2px solid red;
+    /* width: 0.25%; */
+    text-align: center;
+}
+
+.byTableMethod tr td:last-of-type {
+    border-right: none
+}
+
+/*Списком*/
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top:25px; /*делаем отступ сверху*/
+  }
+  
+ 
+  li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:130px; /*Добавляем отступ у пунктов меню*/
+    margin-left: 130px;
+    
+  }
+
